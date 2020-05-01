@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    color: #fff;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+header ul li a:hover
+{
+    background: #205aff;
+}
+.section-tabla
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+.section-tabla .box-content
+{
+    align-content: space-between;
+}
+.section-tabla .box-content h2
+{
+    margin-bottom: 20px;
+}
+.section-tabla .box-content form
+{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 330px;
+}
+.section-tabla .box-content a
+{
+    margin-bottom: 20px;
+}
+.section-tabla .box-content form input
+{
+    position: relative;
+    margin: 5px 5px;
+}
+.section-tabla .box-content form select
+{
+    position: relative;
+    margin: 5px 5px;
+}
+.section-tabla .box-content form .boton
+{
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    background: #111;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* seccion tabla - La tabla */
+
+.section-tabla .box-tabla
+{
+    height: 550px;
+    width: 100%;
+    overflow: auto;
+    margin: 0 0 0 20px;
+}
+.section-tabla .box-tabla table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.section-tabla .box-tabla table th
+{
+    background: #eee;
+}
+.section-tabla .box-tabla table td
+{
+    text-align: left;
+}
+.section-tabla .box-tabla table th,
+.section-tabla .box-tabla table td
+{
+    /* width: 25%; */
+
+    /* text-align: center; */
+    vertical-align: top;
+    border: 1px solid #000;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+
+
+/* seccion tabla - La tabla */
+
+section
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
+    text-align: center;
+}
+section h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+section p
+{
+    font-size: 1.2em;
+    margin: 20px 100px;
+}
+section a
+{
+    display: inline-block;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #111;
+    border-radius: 10px;
+    transition: .5s;
+}
+section a:hover
+{
+    background-color: #1f435a;
+}
+.loading
+{
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+.loading h2
+{
+    color: #000;
+    font-size: 6em;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .loading h2 span
+{
+    animation: animate 4s linear infinite;
+} */
+/* animacion */
+/* .loading h2 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.loading h2 span:nth-child(2)
+{
+    animation-delay: 0.1s;
+}
+.loading h2 span:nth-child(3)
+{
+    animation-delay: 0.2s;
+}
+.loading h2 span:nth-child(4)
+{
+    animation-delay: 0.3s;
+}
+.loading h2 span:nth-child(5)
+{
+    animation-delay: 0.4s;
+}
+.loading h2 span:nth-child(6)
+{
+    animation-delay: 0.5s;
+}
+.loading h2 span:nth-child(7)
+{
+    animation-delay: 0.6s;
+}
+.loading h2 span:nth-child(8)
+{
+    animation-delay: 0.7s;
+}
+.loading h2 span:nth-child(9)
+{
+    animation-delay: 0.8s;
+} */
+/* animacion */
+/* @keyframes animate
+{
+    0%,100%
+    {
+        columns: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #205aff,
+                     0 0 20px #205aff,
+                     0 0 40px #205aff,
+                     0 0 80px #205aff,
+                     0 0 120px #205aff,
+                     0 0 200px #205aff,
+                     0 0 300px #205aff,
+                     0 0 400px #205aff;
+    }
+    25%,75%
+    {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+} */
+/* animacion */

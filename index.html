@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Tp MiniComputadoras</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div id="cont-carga" class="loading">
+            <h2>
+                <span>C</span>
+                <span>a</span>
+                <span>r</span>
+                <span>g</span>
+                <span>a</span>
+                <span>n</span>
+                <span>d</span>
+                <span>o</span>
+                <span>...</span>
+            </h2>
+        </div>
+        <header id="header">
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >Sobre Nosotros</a></li>
+                <li><a href="#" >Poyectos</a></li>
+                <li><a href="#" >Mas</a></li>
+            </ul>
+        </header>
+
+        <section id="home">
+            <h2>Consulta nuestros precios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde mollitia, consequuntur eveniet temporibus. Asperiores, magni, dolore. Dolor magni mollitia commodi cum, modi itaque nihil, explicabo quae similique in quos, dolorem possimus expedita accusamus illum obcaecati assumenda! Quis saepe itaque aliquam perspiciatis quae eos est assumenda! Sint architecto, pariatur vel beatae.</p>
+            <a href="PHP/mostrar_precios.php"> Precios </a>
+        </section>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="JS/main.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        window.onload = function(){
+            let contenedor = document.getElementById('cont-carga');
+
+            contenedor.style.visibility = 'hidden';
+            contenedor.style.opacity = '0';
+        }
+    </script>
+
+</html>
